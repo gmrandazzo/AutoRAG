@@ -1,0 +1,28 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AutoRAG"
+version = "0.1.0"
+description = "A RAG-based Telegram bot mimicking personas"
+authors = [{name = "Your Name", email = "your.email@example.com"}]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "langchain-community",
+    "langchain-text-splitters",
+    "langchain-redis",
+    "langchain-ollama",
+    "langchain-core",
+    "python-telegram-bot",
+    "httpx",
+    "redis"
+]
+requires-python = ">=3.9"
+
+[project.scripts]
+autorag-api = "AutoRAG.api:app" 
+autorag-bot = "AutoRAG.bot:run_bot"
