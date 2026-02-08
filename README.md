@@ -1,6 +1,7 @@
 # AutoRAG
 
-AutoRAG is a Retrieval-Augmented Generation (RAG) system that creates a Telegram bot capable of mimicking a specific persona. By indexing a message history file, the bot adopts the slang, tone, and writing style of the original author.
+AutoRAG is a Retrieval-Augmented Generation (RAG) system that creates a Telegram bot capable of mimicking a specific persona or original author you want.
+By indexing a message history file, the bot adopts the slang, tone, and writing style of the original author.
 
 ## Features
 
